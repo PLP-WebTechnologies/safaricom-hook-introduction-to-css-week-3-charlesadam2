@@ -1,0 +1,57 @@
+/* Element Selector: Change the font size of all headings */
+h1, h2 {
+    font-size: 32px;
+}
+
+/* Class Selector: Apply a background color to specific sections */
+.section {
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+/* ID Selector: Add a border to an element with a unique ID */
+#unique-div {
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+/* Colors: Set text and background colors for different elements */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+.card {
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+/* Spacing: Add padding and margin */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
